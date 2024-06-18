@@ -1,2 +1,2 @@
 # CF-extension
-Hides problem tag in problems and problem set pages
+Hide problem tags in problems and problem set pages
