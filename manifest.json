@@ -1,0 +1,21 @@
+{
+  "name": "CF problem tag hider",
+  "description": "Hide codeforces problem tags in problem and problem set pages.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "images/icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://codeforces.com/problemset/problem/*",
+        "https://codeforces.com/problemset"
+      ]
+    }
+  ]
+}
